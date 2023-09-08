@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi formulario</title>
+</head>
+<body>
+  <h1> Formulario de registro</h1>  
+<div>
+    <label for="Nombre" >Nombre</label>
+    <input id="Nombre" name="Npmbre" class="formElement" type="text" /> 
+</div>
+<div> 
+    <label for="Apellidos"> Apellidos </label>
+    <input id="Apellidos" name="Apellidos" class="formElement" type="text" />
+</div>
+<div> 
+    <label for="Email"> Email </label>
+    <input id="Email" name="Email" class="formElement" type="text" />
+</div>
+<div>
+    <label for="Contraseña">Contraseña</label>
+    <input id="Contraseña" name="Contraseña" class="formElement" type="password"/>
+</div>
+<div>
+    <label for="ConfirmarContraseña">Confirmar Contraseña</label>
+    <input id="ConfirmarContraseña" name="ConfirmarContraseña" class="formElement" type="password"/>
+</div>
+<div>
+    <label for="FechaNacimiento">Fecha de nacimiento</label>
+    <input id="FechaNacimiento" name="FechaNacimiento" class="formElement" type="date"/>
+</div>
+<div>
+    <label>Género</label>
+    <input id="generoMasculino" type="radio" name="genero" value="M"/> Masculino
+    <input id="generoFemenino" type="radio" name="genero" value="F"/> Feminino
+    <input id="generoOtro" type="radio" name="genero" value="O"/> Otro
+</div>
+<div>
+<label for="lol">Desea recibir información a su email?</label>
+<input id="lol" name="lol" class="formElement" type="checkbox"/>
+</div>
+<div>
+    <label for="Lenguajefavorito">Lenguaje favorito</label>
+    <select id="Lenguajefavorito">
+        <option value="pleaseSelect"> Seleccione un lenguaje </option>
+        <option value="JavaScript"> JavaScript </option>
+        <option value="html"> html </option>
+        <option value="Python"> Python </option>
+        <option value="Otro"> Otro </option>
+    </select>
+</div>
+
+<div> 
+    Cuéntanos sobre ti..
+    <textarea> </textarea>
+</div>
+<input id="crearcuenta" class="submissionButtons" type="submit" value="Crear cuenta"/>
+</body>
+</html>
